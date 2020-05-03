@@ -20,7 +20,7 @@ export const MainScreen = ({ addTodo, todos, removeTodo, openTodo }) => {
         <Text style={{ textAlign: "center" }}>
           Вы пока не добавили никаких дел!
         </Text>
-      )}
+      )} 
     </View>
   );
 };
