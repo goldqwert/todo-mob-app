@@ -15,7 +15,7 @@ export const TodoState = ({ children }) => {
   const addTodo = (title) => dispatch({ type: ADD_TODO, title });
 
   const removeTodo = (id) => {
-    const todo = todos.find((t) => t.id === id);
+    const todo = state.todos.find((t) => t.id === id);
     Alert.alert(
       "Удаление элемента",
       `Вы уверены, что хотите удалить "${todo.title}"?`,
